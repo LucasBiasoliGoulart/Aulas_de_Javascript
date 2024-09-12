@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificar Idade</title>
+</head>
+<body>
+    <h1>Verificar Idade</h1>
+    <div class="barra">
+        <div class="ano">
+            <p>Ano de nascimento:</p>
+            <input type="number" id="ano" min="1900" max="2023" placeholder="De 1900 à 2023">
+        </div>
+        <div class="sexo">
+            <p>Sexo:</p>
+            <label for="sexo"><input type="radio" name="sexo" id="masculino">Masculino</label>
+            <label for="sexo"><input type="radio" name="sexo" id="feminino">Feminino</label>
+            
+            <button id="button" type="button" value="verificar" onclick="verificar()">Verificar</button>
+        </div>
+        <img id="imagem" src="./Img/criança.jpg" alt="Imagem">
+        <p id="texto"></p>
+    </div>
+    <h3>&copy; Lucas Biasoli Goulart</h3>
+    <script src="./script.js"></script>
+</body>
+</html>
