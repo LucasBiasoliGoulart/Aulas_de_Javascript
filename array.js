@@ -5,7 +5,7 @@
 // console.log(`Os valores tem ${num.length} posições`)
 // console.log(`O primeiro valor do vetor é ${num[0]}`)
 
-let nomes = ['Lucas', 'Gabriel', 'Alice', 'Gabi', 'João', 'Elizabeth']
-for(let pos in nomes) {
-    console.log(`A posição ${pos} tem o nome ${nomes[pos]}`)
+let numero = [1,5,9,2,4,7]
+for(let pos in numero) {
+    console.log(`A posição ${pos} tem o nome ${numero[pos]}`)
 }
