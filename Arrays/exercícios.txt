@@ -1,0 +1,102 @@
+MAP: 
+1- Dado um array de números, use a função map para criar um novo array com a raiz quadrada de cada número. 
+
+2-  Dado um array de objetos representando produtos, use a função map para criar um novo array contendo apenas os nomes dos produtos em letras maiúsculas. 
+
+const produtos = [ 
+
+  { nome: 'Camiseta', preco: 29.99 }, 
+
+  { nome: 'Calça', preco: 49.99 }, 
+
+  { nome: 'Tênis', preco: 89.99 } 
+
+]; 
+======================================================================================================================
+FILTER: 
+
+1- Dado um array de números, use a função filter para criar um novo array contendo apenas os números entre 10 e 50. 
+
+2- Dado um array de objetos representando pessoas, use a função filter para criar um novo array contendo apenas as pessoas que têm mais de 18 e menores de 65 anos. 
+
+const pessoas = [ 
+
+  { nome: 'Ana', idade: 17 }, 
+
+  { nome: 'João', idade: 20 }, 
+
+  { nome: 'Maria', idade: 19 } 
+
+]; 
+======================================================================================================================
+REDUCE: 
+
+1-  Dado um array de números, use a função reduce para calcular a soma de todos os números. 
+
+2- Dado um array de objetos representando transações, use a função reduce para calcular o saldo final. 
+
+const transacoes = [ 
+
+  { tipo: 'deposito', valor: 100 }, 
+
+  { tipo: 'retirada', valor: 50 }, 
+
+  { tipo: 'deposito', valor: 200 } 
+
+]; 
+======================================================================================================================
+EVERY: 
+
+1-  Dado um array de números, use a função every para verificar se todos os números são positivos. 
+
+2- Dado um array de objetos representando alunos, use a função every para verificar se todos os alunos passaram (nota maior ou igual a 6). 
+
+const alunos = [ 
+
+  { nome: 'Ana', nota: 7 }, 
+
+  { nome: 'João', nota: 5 }, 
+
+  { nome: 'Maria', nota: 8 } 
+
+]; 
+======================================================================================================================
+SOME:  
+
+1-  Dado um array de números, use a função some para verificar se há pelo menos um número negativo. 
+
+2- Dado um array de objetos representando produtos, use a função some para verificar se há pelo menos um produto com preço acima de 100. 
+
+const produtos = [ 
+
+  { nome: 'Camiseta', preco: 29.99 }, 
+
+  { nome: 'Calça', preco: 49.99 }, 
+
+  { nome: 'Tênis', preco: 120.00 } 
+
+]; 
+======================================================================================================================
+FIND:  
+
+1-  Dado um array de números, use a função find para encontrar o primeiro número maior que 10. 
+
+2- Dado um array de objetos representando pessoas, use a função find para encontrar a primeira pessoa com idade maior que 18. 
+
+const pessoas = [ 
+
+  { nome: 'Ana', idade: 17 }, 
+
+  { nome: 'João', idade: 20 }, 
+
+  { nome: 'Maria', idade: 19 } 
+
+]; 
+======================================================================================================================
+INCLUDES: 
+
+1-  Dado um array de números, use a função includes para verificar se o número x está presente no array. 
+
+2- Dado um array de strings representando nomes de frutas, use a função includes para verificar se a fruta 'Maçã' está presente no array e qual seu preço. 
+
+const frutas = ['Banana', 'Laranja', 'Maçã', 'Manga']; 
