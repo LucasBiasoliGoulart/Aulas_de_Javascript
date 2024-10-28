@@ -1,0 +1,18 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/Jogo_do_Mosquito/Img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+img{
+    width: 40%;
+}
