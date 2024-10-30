@@ -1,0 +1,23 @@
+Lista de exercícios: 
+
+1 - Criar uma lista de tarefas onde você pode adicionar, remover e substituir itens. Usando o appendChild, replacedChild e removeChild.
+
+2 - Maninulação de array com splice: Remova elementos específicos de um array e adicionar novos elementos em suas posições; Crie um array de frutas. Remova duas frutas a partir do segundo índice e adicione duas novas frutas no lugar. 
+
+3 - Crie um Array e aplique a função Reverse.
+
+4 - Crie um Array String com uma frase separada e utilize a função Join para unificar em uma string.
+
+5 - Exclua o último item de um array.
+
+6 - Adicione um item no início de um array.
+
+7 - Exclua o primeiro item de um array.
+
+8 - Crie um objeto que contenha propriedades numéricas, textos e métodos.
+
+9 - Utilize o This para ver variáveis e arrays que você criou pelo Documment.
+
+10 - Utilize o This dentro de um método para chamar alguma propriedade.
+
+11 - Crie uma função Callback para otimizar seu código.
